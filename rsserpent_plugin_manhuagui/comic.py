@@ -9,8 +9,7 @@ path = "/manhuagui/comic/{cid}"
 
 @cached
 async def provider(cid: int) -> Dict[str, Any]:
-    """Define a basic example data provider function."""
-
+    """获取漫画章节."""
     link = f"https://www.manhuagui.com/comic/{cid}/"
 
     async with HTTPClient() as client:
