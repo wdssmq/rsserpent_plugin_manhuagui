@@ -622,7 +622,7 @@ pytest = "*"
 
 [[package]]
 name = "pytest-xdist"
-version = "2.4.0"
+version = "2.5.0"
 description = "pytest xdist plugin for distributed testing and loop-on-failing modes"
 category = "dev"
 optional = false
@@ -630,7 +630,7 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 execnet = ">=1.1"
-pytest = ">=6.0.0"
+pytest = ">=6.2.0"
 pytest-forked = "*"
 
 [package.extras]
@@ -960,9 +960,6 @@ coverage = [
     {file = "coverage-6.1.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e14bceb1f3ae8a14374be2b2d7bc12a59226872285f91d66d301e5f41705d4d6"},
     {file = "coverage-6.1.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:0147f7833c41927d84f5af9219d9b32f875c0689e5e74ac8ca3cb61e73a698f9"},
     {file = "coverage-6.1.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:b1d0a1bce919de0dd8da5cff4e616b2d9e6ebf3bd1410ff645318c3dd615010a"},
-    {file = "coverage-6.1.1-cp39-cp39-musllinux_1_1_aarch64.whl", hash = "sha256:ae6de0e41f44794e68d23644636544ed8003ce24845f213b24de097cbf44997f"},
-    {file = "coverage-6.1.1-cp39-cp39-musllinux_1_1_i686.whl", hash = "sha256:db2797ed7a7e883b9ab76e8e778bb4c859fc2037d6fd0644d8675e64d58d1653"},
-    {file = "coverage-6.1.1-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:c40966b683d92869b72ea3c11fd6b99a091fd30e12652727eca117273fc97366"},
     {file = "coverage-6.1.1-cp39-cp39-win32.whl", hash = "sha256:a11a2c019324fc111485e79d55907e7289e53d0031275a6c8daed30690bc50c0"},
     {file = "coverage-6.1.1-cp39-cp39-win_amd64.whl", hash = "sha256:4d8b453764b9b26b0dd2afb83086a7c3f9379134e340288d2a52f8a91592394b"},
     {file = "coverage-6.1.1-pp36-none-any.whl", hash = "sha256:3b270c6b48d3ff5a35deb3648028ba2643ad8434b07836782b1139cf9c66313f"},
@@ -1272,8 +1269,8 @@ pytest-randomly = [
     {file = "pytest_randomly-3.10.1-py3-none-any.whl", hash = "sha256:d28d490e3a743bdd64c5bc87c5fc182eac966ba6432c6bb6b224e32e76527e9e"},
 ]
 pytest-xdist = [
-    {file = "pytest-xdist-2.4.0.tar.gz", hash = "sha256:89b330316f7fc475f999c81b577c2b926c9569f3d397ae432c0c2e2496d61ff9"},
-    {file = "pytest_xdist-2.4.0-py3-none-any.whl", hash = "sha256:7b61ebb46997a0820a263553179d6d1e25a8c50d8a8620cd1aa1e20e3be99168"},
+    {file = "pytest-xdist-2.5.0.tar.gz", hash = "sha256:4580deca3ff04ddb2ac53eba39d76cb5dd5edeac050cb6fbc768b0dd712b4edf"},
+    {file = "pytest_xdist-2.5.0-py3-none-any.whl", hash = "sha256:6fe5c74fec98906deb8f2d2b616b5c782022744978e7bd4695d39c8f42d0ce65"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
